@@ -104,7 +104,7 @@ $(function () {
         // 旗下站点
         const xf_site = {
             siteInfo: [
-                { name: '喃娘Win10导航', links: 'https://nas.v2free.cf', pic: 'assets/upload/blog_picture.jpg' },
+                { name: '喃娘的Win10导航', links: 'https://nas.v2free.cf', pic: 'assets/upload/blog_picture.jpg' },
 
             ]
         }
