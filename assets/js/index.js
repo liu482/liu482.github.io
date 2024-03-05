@@ -105,7 +105,8 @@ $(function () {
         const xf_site = {
             siteInfo: [
                 { name: '喃娘的Win10导航', links: 'https://nas.v2free.cf', pic: 'assets/upload/blog_picture.jpg' },
-
+                 { name: '喃娘的导航', links: 'https://flowus.cn/nanniang/share/68b4fc8f-8498-4e3a-90ca-bc2e76edfe28 喃娘的导航', pic: 'assets/upload/daohang.jpg' },
+                 { name: '喃娘的主页', links: 'https://liu482.github.io/grzy', pic: 'assets/upload/zhuye.jpg' },
             ]
         }
 
