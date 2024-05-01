@@ -169,7 +169,7 @@ $(function () {
 
     let myDate = new Date()
     let weeks = ['日', '一', '二', '三', '四', '五', '六']
-    let webTime = new Date('2024-03-05') // 这里修改建站时间
+    let webTime = new Date('2023-06-022') // 这里修改建站时间
 
     function getTime() {
         let [year, month, date, hours, minutes, seconds, week] = [
