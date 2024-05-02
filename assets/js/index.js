@@ -105,8 +105,7 @@ $(function () {
         const xf_site = {
             siteInfo: [
                 { name: '喃娘Win10导航', links: 'http://nan.cloudns.ch/404/', pic: 'assets/upload/blog_picture.jpg' },
-                 { name: '博客', links: 'https://ix520.github.io/', pic: 'assets/upload
-/boke.jpg' },
+              
                  { name: '喃娘的主页', links: 'http://nan.cloudns.ch/404/', pic: 'assets/upload/zhuye.jpg' },
 
             ]
