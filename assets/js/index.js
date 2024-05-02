@@ -115,7 +115,7 @@ $(function () {
         const xf_friend = {
             friendInfo: [
                 { qq: '3096142327', links: '', name: '喃娘', sig: 'Hello World' },
-                { qq: '3096142327', links: 'JavaScript:;', name: '000', sig: '000' },
+                { qq: '3096142327', links: 'https://ix520.github.io/', name: '博客', sig: '000' },
             ]
         }
 
