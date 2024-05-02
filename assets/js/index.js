@@ -105,7 +105,7 @@ $(function () {
         const xf_site = {
             siteInfo: [
                 { name: '喃娘Win10导航', links: 'http://nan.cloudns.ch/404/', pic: 'assets/upload/blog_picture.jpg' },
-              
+                 { name: '喃娘的导航', links: 'https://flowus.cn/nanniang/share/68b4fc8f-8498-4e3a-90ca-bc2e76edfe28 喃娘的导航', pic: 'assets/upload/daohang.jpg' },
                  { name: '喃娘的主页', links: 'http://nan.cloudns.ch/404/', pic: 'assets/upload/zhuye.jpg' },
 
             ]
@@ -169,7 +169,7 @@ $(function () {
 
     let myDate = new Date()
     let weeks = ['日', '一', '二', '三', '四', '五', '六']
-    let webTime = new Date('2023-06-022') // 这里修改建站时间
+    let webTime = new Date('2024-03-05') // 这里修改建站时间
 
     function getTime() {
         let [year, month, date, hours, minutes, seconds, week] = [
@@ -250,7 +250,7 @@ $(function () {
         $('.xf_high').html(res.info.high)
     })
     function yiyan() {
-        xf_ajax('GET', 'https://api.vvhan.com/api/ian?type=json', 5000, (res) => {
+        xf_ajax('GET', 'https://api.vvhan.com/api/ian/rand?type=json', 5000, (res) => {
             if (res.success !== true) {
                 $('.infos').html('接口请求出错咯~')
                 $('.infos_dis').hide()
